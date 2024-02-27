@@ -1,0 +1,41 @@
+/* apply to everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*!*/
+}
+
+/* no underline for links*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", "sans-serif";
+}
+
+#navbar{
+    color: #fff;
+    display:flex; /* ögeler alt alta değil yan yana dizilir */
+    justify-content: space-between; /* aralarına boşluk ekle h1 ve ul'nin */
+    align-items: center; /* ortala içeride */
+    padding: 0 0.75rem; /* sadece yanlardan */
+    height: 70px;
+
+}
+
+#navbar ul{
+    list-style-type: none; /* remove dots from list */
+    display:flex;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.5rem;
+} 
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+} 

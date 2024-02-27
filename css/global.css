@@ -1,0 +1,33 @@
+/* used everywhere, apply to any tag with specific class names */
+
+/* texts: */
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem; /*!*/
+}
+.heading-medium{
+    font-size: 1.25rem; 
+}
+.heading-big{
+    font-size: 1.25rem; 
+}
+
+/* colors: */
+
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-ligh-blue{
+    background: #336e62;
+}
+
+/* Container, birçok yerde kullanıalbilir, global */
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto; /* ekranda ortalansın */
+}
